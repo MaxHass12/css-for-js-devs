@@ -1,20 +1,26 @@
 <style>
-  .blue {
-    background-color: lightblue;
-  }
-  .pink {
-    background-color: lightpink;
+  nav ul {
+    display: flex;
+    justify-content: space-between;
   }
 
-  p {
-    margin-top: 32px;
+  @media (min-width: 300px) {
+    /* Desktop styles */
   }
 </style>
+
 <body>
-  <section class="blue">
-    <p>Paragraph One</p>
-  </section>
-  <section class="pink">
-    <p>Paragraph Two</p>
-  </section>
+  <nav>
+    <ul>
+      <li>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <a href="">Browse</a>
+      </li>
+      <li>
+        <a href="">Contact</a>
+      </li>
+    </ul>
+  </nav>
 </body>
